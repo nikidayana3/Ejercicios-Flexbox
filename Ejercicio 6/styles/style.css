@@ -1,0 +1,40 @@
+body{
+    background: #93d9e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planes{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.plan{
+    min-height: 480px;
+    width: 250px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.plan a{
+    margin-top: auto;
+    margin-bottom: 20px;
+     text-decoration: none ;
+    color:black
+
+    
+}
+
+.plan h2{
+    background: salmon;
+    margin: 0;
+    padding: 20px;
+}

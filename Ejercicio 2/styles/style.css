@@ -1,0 +1,25 @@
+
+
+.menu-vertical{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    width:300px;
+    margin:30px;
+    color: rgb(190, 224, 254);
+}
+
+.opcion{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border:1px solid black;
+    background-color: lightblue;
+    color: rgb(5, 5, 5);
+}
+
+.opcion a{
+    text-decoration:none;
+    color:rgb(18, 18, 19);
+}
